@@ -1,0 +1,31 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Material Icons";
+  font-style: normal;
+  src: local("Material Icons"),
+  local("MaterialIcons-Regular"),
+  url('../../static/fonts/material-icons/material-icons-regular.woff2') format('woff2'),
+  url('../../static/fonts/material-icons/material-icons-regular.woff') format('woff'),
+  url('../../static/fonts/material-icons/material-icons-regular.ttf') format('opentype'),
+  url('../../static/fonts/material-icons/material-icons-regular.svg') format('svg');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Font Awesome';
+  font-style: normal;
+  src: url('../../static/fonts/fontawesome/fa-solid-900.woff2') format('woff2'),
+  url('../../static/fonts/fontawesome/fa-solid-900.woff') format('woff'),
+  url('../../static/fonts/fontawesome/fa-solid-900.ttf') format('opentype'),
+  url('../../static/fonts/fontawesome/fa-solid-900.svg') format('svg');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Font Awesome Brands';
+  font-style: normal;
+  src: url('../../static/fonts/fontawesome/fa-brands-400.woff2') format('woff2'),
+  url('../../static/fonts/fontawesome/fa-brands-400.woff') format('woff'),
+  url('../../static/fonts/fontawesome/fa-brands-400.ttf') format('opentype'),
+  url('../../static/fonts/fontawesome/fa-regular-400.svg') format('svg');
+}
