@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Header } from './Components/Header/Header';
 import { Route, Switch } from 'react-router';
 import { Login } from './Pages/Login/Login';
-import { MainLayout } from './Components/MainLayout/MainLayout';
 
 function App() {
   return (

@@ -4,11 +4,10 @@ import { passwordFieldStyles } from './PasswordField.styles';
 
 
 function PasswordField() {
-  const togglePassVisibility = ({input, icon}, action, type, fontSize, fontAwesome) => {
+  const togglePassVisibility = ({input, icon}, action, type, fontAwesome) => {
     icon.setAttribute("data-action", action)
     icon.setAttribute("class", `${fontAwesome} ${styles.icon} ${iconClass}`)
     input.setAttribute("type", type)
-    input.style.fontSize = fontSize
   };
 
   const paintIcon = ({icon}, color) => {
@@ -68,10 +67,10 @@ function PasswordField() {
 
     else if (data.event == "click") {
       if (data.action == "show") {
-        togglePassVisibility(data, "hide", "text", "14px", "fas fa-eye")
+        togglePassVisibility(data, "hide", "text", "fas fa-eye")
       }
       else if (data.action == "hide") {
-        togglePassVisibility(data, "show", "password", "16px", "fas fa-eye-slash")
+        togglePassVisibility(data, "show", "password", "fas fa-eye-slash")
       }
     }
 

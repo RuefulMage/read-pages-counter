@@ -3,7 +3,6 @@ import background from './static/login-page-background.jpg';
 
 const loginPageStyles = makeStyles({
   root: {
-    // padding: '252px 0',
     height: '100%',
     display: 'flex',
     justifyContent: 'center',
