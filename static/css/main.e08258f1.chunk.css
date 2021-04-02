@@ -76,21 +76,21 @@ code {
   font-weight: 400;
   font-family: "Material Icons";
   font-style: normal;
-  src: local("Material Icons"), local("MaterialIcons-Regular"), url(./static/media/material-icons-regular.cff684e5.woff2) format("woff2"), url(./static/media/material-icons-regular.83bebaf3.woff) format("woff"), url(./static/media/material-icons-regular.5e7382c6.ttf) format("opentype"), url(./static/media/material-icons-regular.b40b5808.svg) format("svg")
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(/read-pages-counter/static/media/material-icons-regular.cff684e5.woff2) format("woff2"), url(/read-pages-counter/static/media/material-icons-regular.83bebaf3.woff) format("woff"), url(/read-pages-counter/static/media/material-icons-regular.5e7382c6.ttf) format("opentype"), url(/read-pages-counter/static/media/material-icons-regular.b40b5808.svg) format("svg")
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Font Awesome";
   font-style: normal;
-  src: url(./static/media/fa-solid-900.b72fff26.woff2) format("woff2"), url(./static/media/fa-solid-900.3ebcbc1d.woff) format("woff"), url(./static/media/fa-solid-900.d08fd9a8.ttf) format("opentype"), url(./static/media/fa-solid-900.abe3b25e.svg) format("svg")
+  src: url(/read-pages-counter/static/media/fa-solid-900.b72fff26.woff2) format("woff2"), url(/read-pages-counter/static/media/fa-solid-900.3ebcbc1d.woff) format("woff"), url(/read-pages-counter/static/media/fa-solid-900.d08fd9a8.ttf) format("opentype"), url(/read-pages-counter/static/media/fa-solid-900.abe3b25e.svg) format("svg")
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Font Awesome Brands";
   font-style: normal;
-  src: url(./static/media/fa-brands-400.1c638e5f.woff2) format("woff2"), url(./static/media/fa-brands-400.dc957891.woff) format("woff"), url(./static/media/fa-brands-400.ec7723ea.ttf) format("opentype"), url(./static/media/fa-regular-400.c803f540.svg) format("svg")
+  src: url(/read-pages-counter/static/media/fa-brands-400.1c638e5f.woff2) format("woff2"), url(/read-pages-counter/static/media/fa-brands-400.dc957891.woff) format("woff"), url(/read-pages-counter/static/media/fa-brands-400.ec7723ea.ttf) format("opentype"), url(/read-pages-counter/static/media/fa-regular-400.c803f540.svg) format("svg")
 }
 
 /*# sourceMappingURL=main.e08258f1.chunk.css.map */
