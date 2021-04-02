@@ -16,7 +16,7 @@ function MainLayout({children, isHeaderPrimary = true}) {
   return (
     <div className={styles.root}>
       { header }
-      <main>
+      <main className={styles.main}>
         {children}
       </main>
       <Footer text='If you notice any error, you can contact us via gmail: feonorabd2000@gmail.com or social networks'
