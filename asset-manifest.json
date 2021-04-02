@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e08258f1.chunk.css",
+    "main.js": "/static/js/main.639a388d.chunk.js",
+    "main.js.map": "/static/js/main.639a388d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b775e19b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b775e19b.js.map",
+    "static/css/2.d9957774.chunk.css": "/static/css/2.d9957774.chunk.css",
+    "static/js/2.321ab870.chunk.js": "/static/js/2.321ab870.chunk.js",
+    "static/js/2.321ab870.chunk.js.map": "/static/js/2.321ab870.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d9957774.chunk.css.map": "/static/css/2.d9957774.chunk.css.map",
+    "static/css/main.e08258f1.chunk.css.map": "/static/css/main.e08258f1.chunk.css.map",
+    "static/js/2.321ab870.chunk.js.LICENSE.txt": "/static/js/2.321ab870.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/static/media/material-icons-regular.cff684e5.woff2",
+    "static/media/all.css": "/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/login-page-background.ec6846fb.jpg": "/static/media/login-page-background.ec6846fb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b775e19b.js",
+    "static/css/2.d9957774.chunk.css",
+    "static/js/2.321ab870.chunk.js",
+    "static/css/main.e08258f1.chunk.css",
+    "static/js/main.639a388d.chunk.js"
+  ]
+}
