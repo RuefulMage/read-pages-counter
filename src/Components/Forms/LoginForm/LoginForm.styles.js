@@ -24,7 +24,12 @@ const loginFormStyles = makeStyles({
   },
   button: {
     backgroundColor: '#ff79e6'
-  }
+  },
+  signUpWrapper: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
 });
 
 export { loginFormStyles };

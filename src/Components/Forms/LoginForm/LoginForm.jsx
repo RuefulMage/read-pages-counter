@@ -2,6 +2,7 @@ import { loginFormStyles } from './LoginForm.styles';
 import { PasswordField } from '../../PasswordField/PasswordField';
 import { TextField } from '../../TextField/TextField';
 import { FormButton } from '../../FormButton/FormButton';
+import { LinkButton } from '../../LinkButton/LinkButton';
 
 function LoginForm() {
   const styles = loginFormStyles();
@@ -16,7 +17,11 @@ function LoginForm() {
         <PasswordField />
       </div>
       <div className={styles.buttonWrapper}>
-        <FormButton text='Войти'/>
+        <FormButton text='Войти' link='#'/>
+      </div>
+      <div className={styles.signUpWrapper}>
+        <span>Don't have an account?</span>
+        <LinkButton text='Sign Up' link='#' />
       </div>
     </div>
   );
