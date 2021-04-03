@@ -16,7 +16,8 @@ const textFieldStyles = makeStyles({
   },
   icon: {
     marginRight: '10px',
-    color: '#bdbdbd'
+    color: '#bdbdbd',
+    fontFamily: 'Font Awesome'
   },
   icon_active: {
     color: '#ff79e6'

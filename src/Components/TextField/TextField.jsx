@@ -1,7 +1,6 @@
-import {textFieldStyles} from "./TextField.styles";
-import '@fortawesome/fontawesome-free/css/all.css';
+import { textFieldStyles } from './TextField.styles';
 
-function TextField({iconStyles, type, name, placeholder}) {
+function TextField({ icon, type, name, placeholder }) {
   const styles = textFieldStyles();
   const inputClass = 'js-text-field__input';
   const iconClass = 'js-text-field__icon';
@@ -20,11 +19,14 @@ function TextField({iconStyles, type, name, placeholder}) {
 
   return (
     <div className={styles.root}>
-      <i className={`${iconStyles} ${styles.icon} ${iconClass}`}></i>
-      <input type={type} name={name} placeholder={placeholder}
-             className={`${styles.input} ${inputClass}`}
-             onFocus={handler}
-             onBlur={handler}
+      <span className={`${styles.icon} ${iconClass}`}>{icon}</span>
+      <input
+        type={type}
+        name={name}
+        placeholder={placeholder}
+        className={`${styles.input} ${inputClass}`}
+        onFocus={handler}
+        onBlur={handler}
       />
     </div>
   );

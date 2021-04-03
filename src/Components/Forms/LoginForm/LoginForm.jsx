@@ -11,17 +11,17 @@ function LoginForm() {
     <div className={styles.root}>
       <h1 className={styles.title}>Log in</h1>
       <div className={styles.fieldWrapper}>
-        <TextField iconStyles='fas fa-user' type='text' name='login' placeholder='Login'/>
+        <TextField icon='' type='text' name='login' placeholder='Login' />
       </div>
       <div className={styles.fieldWrapper}>
-        <PasswordField />
+        <PasswordField placeholder='Password' name='password' />
       </div>
       <div className={styles.buttonWrapper}>
-        <FormButton text='Войти' link='#'/>
+        <FormButton text='Log in' link='#' />
       </div>
       <div className={styles.signUpWrapper}>
         <span>Don't have an account?</span>
-        <LinkButton text='Sign Up' link='#' />
+        <LinkButton text='Sign Up' link='/registration' />
       </div>
     </div>
   );

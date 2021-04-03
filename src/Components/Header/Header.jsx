@@ -7,7 +7,8 @@ function Header() {
   return (
     <div className={styles.root}>
       <HeaderNavigation />
-    </div>);
+    </div>
+  );
 }
 
-export {Header};
+export { Header };
