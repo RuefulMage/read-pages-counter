@@ -12,7 +12,7 @@ const headerNavLinkStyles = makeStyles({
     fontWeight: 'bold',
     backgroundColor: '#BC9CFF',
     color: '#FFFFFF',
-  }
+  },
 });
 
 export { headerNavLinkStyles };

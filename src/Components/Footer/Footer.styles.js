@@ -5,22 +5,22 @@ const footerStyles = makeStyles({
     display: 'flex',
     padding: '15px 40px',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   text: {
-    textAlign: 'left'
+    textAlign: 'left',
   },
   socialNetworkLinks: {
     display: 'flex',
-    margin: '0'
+    margin: '0',
   },
   icon: {
     listStyle: 'none',
     marginRight: '10px',
     '&:last-child': {
-      marginRight: '0'
-    }
-  }
+      marginRight: '0',
+    },
+  },
 });
 
 export { footerStyles };

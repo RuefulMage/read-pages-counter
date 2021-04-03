@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types';
 import { textFieldStyles } from './TextField.styles';
 
-function TextField({ icon, type, name, placeholder }) {
+function TextField({ iconSymbol, type, name, placeholder }) {
   const styles = textFieldStyles();
   const inputClass = 'js-text-field__input';
   const iconClass = 'js-text-field__icon';
@@ -19,7 +20,7 @@ function TextField({ icon, type, name, placeholder }) {
 
   return (
     <div className={styles.root}>
-      <span className={`${styles.icon} ${iconClass}`}>{icon}</span>
+      <span className={`${styles.icon} ${iconClass}`}>{iconSymbol}</span>
       <input
         type={type}
         name={name}
@@ -31,5 +32,19 @@ function TextField({ icon, type, name, placeholder }) {
     </div>
   );
 }
+
+TextField.defaultProps = {
+  iconSymbol: '',
+  type: 'text',
+  name: 'text',
+  placeholder: 'Enter text here',
+};
+
+TextField.propTypes = {
+  iconSymbol: PropTypes.string,
+  type: PropTypes.string,
+  name: PropTypes.string,
+  placeholder: PropTypes.string,
+};
 
 export { TextField };

@@ -1,4 +1,4 @@
-import {makeStyles} from "@material-ui/styles";
+import { makeStyles } from '@material-ui/styles';
 import background from './static/login-page-background.jpg';
 
 const loginPageStyles = makeStyles({

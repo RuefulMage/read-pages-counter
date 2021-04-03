@@ -11,7 +11,7 @@ function LoginForm() {
     <div className={styles.root}>
       <h1 className={styles.title}>Log in</h1>
       <div className={styles.fieldWrapper}>
-        <TextField icon='' type='text' name='login' placeholder='Login' />
+        <TextField iconSymbol='' type='text' name='login' placeholder='Login' />
       </div>
       <div className={styles.fieldWrapper}>
         <PasswordField placeholder='Password' name='password' />

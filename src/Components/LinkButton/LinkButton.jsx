@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { linkButtonStyles } from './LinkButton.styles';
 
 function LinkButton({ text, link }) {
@@ -9,5 +10,10 @@ function LinkButton({ text, link }) {
     </div>
   );
 }
+
+LinkButton.propTypes = {
+  text: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+};
 
 export { LinkButton };

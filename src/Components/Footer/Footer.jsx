@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { footerStyles } from './Footer.styles';
 import { SocialNetworkIcon } from '../SocialNetworkIcon/SocialNetworkIcon';
 
@@ -21,5 +22,18 @@ function Footer({ text, socialNetworkIcons }) {
     </footer>
   );
 }
+
+Footer.defaultProps = {
+  text: 'Copyright © 2021 Read Pages Counter. All rights reserved',
+  socialNetworkIcons: [],
+};
+
+Footer.propTypes = {
+  text: PropTypes.string,
+  socialNetworkIcons: PropTypes.arrayOf(PropTypes.shape({
+    text: PropTypes.string,
+    link: PropTypes.string,
+  })),
+};
 
 export { Footer };

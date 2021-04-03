@@ -29,14 +29,13 @@ module.exports = {
     'no-use-before-define': ['off'],
     'object-curly-newline': ['error', { ImportDeclaration: 'never' }],
     'import/prefer-default-export': ['off'],
-    'jsx-a11y/anchor-is-valid': ['error', {
-      components: ['Link', 'a'],
-      specialLink: ['to'],
-      aspects: ['invalidHref'],
-    }],
     'react/jsx-one-expression-per-line': ['off'],
     indent: ['error', 2],
     'react/jsx-no-target-blank': ['error', { enforceDynamicLinks: 'never' }],
+    'linebreak-style': 0,
+    'react/no-unescaped-entities': 0,
+    'no-param-reassign': 0,
+    'no-unused-vars': 0,
   },
   overrides: [
     {

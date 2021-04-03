@@ -16,15 +16,15 @@ const passwordFieldStyles = makeStyles({
   },
   icon: {
     marginRight: '10px',
-    color: '#bdbdbd'
+    color: '#bdbdbd',
   },
   input: {
     border: 'none',
     width: '100%',
     '&:focus': {
-      outline: 'none'
-    }
-  }
+      outline: 'none',
+    },
+  },
 });
 
 export { passwordFieldStyles };

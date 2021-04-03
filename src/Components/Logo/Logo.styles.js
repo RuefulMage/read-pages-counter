@@ -8,7 +8,7 @@ const logoStyles = makeStyles({
     background: 'linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%)',
     '-webkit-background-clip': 'text',
     '-webkit-text-fill-color': 'transparent',
-  }
+  },
 });
 
 export { logoStyles };

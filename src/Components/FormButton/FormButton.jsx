@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { formButtonStyles } from './FormButton.styles';
 
 function FormButton({ text }) {
@@ -10,5 +11,13 @@ function FormButton({ text }) {
     </button>
   );
 }
+
+FormButton.defaultProps = {
+  text: 'Submit',
+};
+
+FormButton.propTypes = {
+  text: PropTypes.string,
+};
 
 export { FormButton };

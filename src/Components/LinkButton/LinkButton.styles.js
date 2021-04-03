@@ -12,7 +12,7 @@ const linkButtonStyles = makeStyles({
 
     '&:focus, &:hover': {
       background: 'linear-gradient(180deg,rgba(188,156,255,.5),rgba(139,164,249,.5))',
-    }
+    },
   },
   content: {
     display: 'flex',
@@ -20,12 +20,12 @@ const linkButtonStyles = makeStyles({
     padding: '9px 18px',
     color: '#BC9CFF',
     fontWeight: 'bold',
-    fontSize: '.75rem', //12px при базовом размере шрифта 16px
+    fontSize: '.75rem', // 12px при базовом размере шрифта 16px
     textTransform: 'uppercase',
     textDecoration: 'none',
     background: 'white',
     borderRadius: 'inherit',
-  }
+  },
 });
 
 export { linkButtonStyles };

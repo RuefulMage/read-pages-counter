@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { mainLayoutStyles } from './MainLayout.styles';
 import { Header } from '../Header/Header';
 import { SecondaryHeader } from '../SecondaryHeader/SecondaryHeader';
@@ -26,5 +27,15 @@ function MainLayout({ children, isHeaderPrimary = true }) {
     </div>
   );
 }
+
+MainLayout.defaultProps = {
+  children: [],
+  isHeaderPrimary: false,
+};
+
+MainLayout.propTypes = {
+  children: PropTypes.arrayOf(PropTypes.element),
+  isHeaderPrimary: PropTypes.bool,
+};
 
 export { MainLayout };

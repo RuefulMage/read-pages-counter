@@ -9,26 +9,26 @@ const loginFormStyles = makeStyles({
     border: '1px solid rgba(0, 0, 0, .12)',
     borderRadius: '4px',
     boxShadow: '0 0 25px rgba(0, 0, 0, .2)',
-    background: 'white'
+    background: 'white',
   },
   title: {
     fontWeight: 'bold',
-    fontSize: '25px'
+    fontSize: '25px',
   },
   fieldWrapper: {
     marginBottom: '20px',
   },
   buttonWrapper: {
     marginBottom: '20px',
-    width: '100%'
+    width: '100%',
   },
   button: {
-    backgroundColor: '#ff79e6'
+    backgroundColor: '#ff79e6',
   },
   signUpWrapper: {
     display: 'flex',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
   },
 });
 

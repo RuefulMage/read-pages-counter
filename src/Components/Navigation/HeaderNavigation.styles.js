@@ -7,7 +7,7 @@ const headerNavigationStyles = makeStyles({
   list: {
     display: 'flex',
     listStyle: 'none',
-    margin: '0'
+    margin: '0',
   },
 });
 

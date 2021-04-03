@@ -1,4 +1,4 @@
-import {makeStyles} from "@material-ui/styles";
+import { makeStyles } from '@material-ui/styles';
 
 const textFieldStyles = makeStyles({
   root: {
@@ -17,21 +17,21 @@ const textFieldStyles = makeStyles({
   icon: {
     marginRight: '10px',
     color: '#bdbdbd',
-    fontFamily: 'Font Awesome'
+    fontFamily: 'Font Awesome',
   },
   icon_active: {
-    color: '#ff79e6'
+    color: '#ff79e6',
   },
   input: {
     border: 'none',
     width: '100%',
     '&:focus': {
-      outline: 'none'
+      outline: 'none',
     },
     '&:-webkit-autofill': {
-      webkitBoxShadow: '0 0 0 30px white inset !important'
-    }
-  }
+      webkitBoxShadow: '0 0 0 30px white inset !important',
+    },
+  },
 });
 
 export { textFieldStyles };

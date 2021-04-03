@@ -6,29 +6,29 @@ const initialState = {
   login: '',
   fullName: '',
   email: '',
-}
+};
 
 const profileSlice = createSlice({
   name: SLICE_NAME,
   initialState,
   reducers: {
-    login: (state, action)  => {
+    login: (state, action) => {
       state.isAuth = true;
       state.login = action.payload.login;
       state.fullName = action.payload.fullName;
       state.email = action.payload.email;
     },
-    logout: state => {
+    logout: (state) => {
       state = initialState;
     },
   },
 });
 
-const reducer = profileSlice.reducer;
+const { reducer } = profileSlice;
 const { login, logout } = profileSlice.actions;
 
 export {
   reducer,
   login,
-  logout
+  logout,
 };
